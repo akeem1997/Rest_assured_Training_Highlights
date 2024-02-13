@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-08T16:54:49 CST" name="Default suite" finished-at="2024-02-08T16:54:52 CST" duration-ms="2934">
+    <groups>
+    </groups>
+    <test started-at="2024-02-08T16:54:49 CST" name="Default test" finished-at="2024-02-08T16:54:52 CST" duration-ms="2934">
+      <class name="day1.HTTP_Practice">
+        <test-method signature="postUser()[pri:1, instance:day1.HTTP_Practice@40ef3420]" started-at="2024-02-08T16:54:49 CST" name="postUser" finished-at="2024-02-08T16:54:52 CST" duration-ms="2687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postUser -->
+        <test-method signature="getUser()[pri:2, instance:day1.HTTP_Practice@40ef3420]" started-at="2024-02-08T16:54:52 CST" name="getUser" finished-at="2024-02-08T16:54:52 CST" depends-on-methods="day1.HTTP_Practice.postUser" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser -->
+        <test-method signature="deleteUser()[pri:3, instance:day1.HTTP_Practice@40ef3420]" started-at="2024-02-08T16:54:52 CST" name="deleteUser" finished-at="2024-02-08T16:54:52 CST" depends-on-methods="day1.HTTP_Practice.getUser" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+      </class> <!-- day1.HTTP_Practice -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

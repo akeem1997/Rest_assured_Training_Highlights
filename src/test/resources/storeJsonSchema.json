@@ -1,0 +1,133 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "RecordLabel": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "Artist": {
+              "type": "string"
+            },
+            "Genre": {
+              "type": "string"
+            },
+            "NetWorth": {
+              "type": "integer"
+            },
+            "Gender": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Artist",
+            "Genre",
+            "NetWorth",
+            "Gender"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Artist": {
+              "type": "string"
+            },
+            "Genre": {
+              "type": "string"
+            },
+            "NetWorth": {
+              "type": "integer"
+            },
+            "Gender": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Artist",
+            "Genre",
+            "NetWorth",
+            "Gender"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Artist": {
+              "type": "string"
+            },
+            "Genre": {
+              "type": "string"
+            },
+            "NetWorth": {
+              "type": "integer"
+            },
+            "Gender": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Artist",
+            "Genre",
+            "NetWorth",
+            "Gender"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Artist": {
+              "type": "string"
+            },
+            "Genre": {
+              "type": "string"
+            },
+            "NetWorth": {
+              "type": "integer"
+            },
+            "Gender": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Artist",
+            "Genre",
+            "NetWorth",
+            "Gender"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Artist": {
+              "type": "string"
+            },
+            "Genre": {
+              "type": "string"
+            },
+            "NetWorth": {
+              "type": "integer"
+            },
+            "Gender": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Artist",
+            "Genre",
+            "NetWorth",
+            "Gender"
+          ]
+        }
+      ]
+    },
+    "id": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "RecordLabel",
+    "id"
+  ]
+}
